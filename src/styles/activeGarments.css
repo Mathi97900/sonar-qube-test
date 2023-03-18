@@ -1,0 +1,317 @@
+.tableHeading {
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'AvenirLTPro-Heavy';
+    /* height: 60px; */
+    background: #F7F5FF;
+    border-radius: 4px 0 0;
+    line-height: 150%;
+    color: #5932F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableHeading>div {
+    margin-top: 0.8rem;
+
+}
+
+.sizingSuggestionOn {
+    width: 72px;
+    height: 28px;
+    background: rgba(89, 50, 243, 0.05);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'AvenirLTPro-Roman';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sizeContainer {
+    /* padding:4px; */
+    text-align: center;
+    border-top: 1px solid #D6D6D6;
+    /* border-bottom:1px solid #D6D6D6; */
+    height: 43px;
+
+
+}
+
+.sizeContainer>div {
+    /* padding-top: 5%; */
+    height: 41px;
+    width: 99%;
+    border-left: 1px solid #D6D6D6;
+}
+
+.sizeContainer>div .sizeEdit {
+    /* padding-top: 5%; */
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+.productCointainer {
+    /* border-bottom:1px solid #D6D6D6; */
+    border-top: 1px solid #D6D6D6;
+    height: 43px;
+    /* font-family: 'AvenirLTPro-Medium'; */
+    align-items: center;
+    font-family: 'AvenirLTPro-Heavy';
+
+}
+
+.sizeContainer {
+    font-family: 'AvenirLTPro-Roman';
+}
+
+.productCointainer>div {
+    /* margin-top: 1rem;
+margin-bottom: 1rem; */
+    line-height: 150%;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.advanceInputBodyType {
+    height: 28px;
+    margin-left: 18px !important;
+    background: rgba(175, 175, 175, 0.14);
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #949494;
+}
+
+.advanceInputBodyType.active {
+    background: rgba(122, 231, 199, 0.16);
+    border: 0.5px solid #7AE7C7;
+    border-radius: 4px;
+    color: #62BFA3;
+}
+
+.advanceInputBodyType>div {
+    margin-top: 4%;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+
+.dropbtn {
+    /* background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none; */
+
+}
+
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+
+.dropdown {
+    box-sizing: border-box;
+    background: #F9F9FB;
+    border: 0.5px solid #DBDADA;
+    border-radius: 4px;
+    cursor: pointer;
+    Width: 217.78px;
+    Height: 51px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+}
+
+.dropdown-content {
+    /* display: none; */
+    position: absolute;
+    background: #F9F9FB;
+    min-width: 160px;
+    overflow: auto;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown-content div:not(.radio) {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+/* .dropdown div:hover {background-color: #ddd;} */
+
+.radio .show {
+    display: block;
+}
+
+.activeGarmentTr:hover {
+    background-color: rgba(89, 50, 243, 0.05);
+
+}
+
+.sizeContainer>div:focus {
+    /* outline: 1px solid #5932F3; */
+    /* outline: none;
+  border: 1px solid #5932F3; */
+    border: 1px solid #5932F3;
+    outline-style: solid;
+    outline-color: #5932F3;
+    outline-width: thin;
+}
+
+.closeIcon>svg {
+    height: 18px;
+    margin-top: 12px;
+}
+
+.DropcloseIcon>svg {
+    height: 28px;
+    margin-top: 16px;
+}
+
+.accordianRoot::before {
+    background-color: #ffffff00 !important;
+}
+
+.accordianRoot {
+    padding: 20px 0;
+}
+
+
+
+.advanceInputSlider .MuiSlider-valueLabelOpen {
+    background: rgba(89, 50, 243, 0.05);
+    border-radius: 6px;
+    color: #5932F3;
+    width: 39px;
+    height: 26px;
+
+}
+
+.measurementTolerance>.toleranceValue {
+    width: 46.35px;
+    height: 26px;
+    background: rgba(175, 175, 175, 0.14);
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.toleranceIcon {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropFileCloud {
+    width: 348px;
+    height: 194px;
+    background: linear-gradient(346.5deg, rgba(196, 196, 196, 0.13) -21.23%, rgba(231, 228, 228, 0) 98.94%);
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.garmentInput:focus {
+    outline: none !important;
+    /* border:1px solid red;
+    box-shadow: 0 0 10px #719ECE; */
+    border: 2px solid #5932F3 !important;
+    /* outline-style: solid;
+    outline-color: #5932F3;
+    outline-width: thin; */
+}
+
+.garmentInput {
+    outline: none !important;
+}
+
+.sizeContainer>.garmentInput {
+    font-size: 12px;
+    text-align: center;
+    width: 86% !important;
+    border: none;
+    border-left: 1px solid #D6D6D6;
+}
+
+.garmentInput::-webkit-inner-spin-button,
+.garmentInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.labelBox {
+    height: 28px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AvenirLTPro-Book;
+    font-weight: 40;
+    font-size: 16px;
+    line-height: 150%;
+    border-radius: 4px;
+}
+
+.statusBox {
+    width: 88px;
+    height: 28px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'AvenirLTPro-Book';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.settingIconContainer {
+    height: 28px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ABABAB;
+    background: #FFFFFF;
+    border: 1px solid rgba(88, 88, 88, 0.1);
+    cursor: pointer;
+    border-radius: '4px';
+}
+
+.garmentName {
+    font-family: 'AvenirLTPro-Book';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0C0C0C;
+}
+
+.measurementBox {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-top: none;
+    /* border-radius: 4px; */
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+}
+
+.measurementBox:last-child {
+    border-radius: 0 0 4px 4px;
+}
+
+.measurementBox:hover {
+    background: #F7F5FF;
+}
